@@ -1,7 +1,7 @@
 <?php
-  $title = 'Comelec';
+  $title = 'COMELEC';
 
-  $contentView = __DIR__ . '\index.php';
+  $contentView = '../views/_frontend/_index.php';
   
   include('../views/layouts/master.php');
 ?>

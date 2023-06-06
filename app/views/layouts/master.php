@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $title; ?></title>
   <!-- CSS Link -->
-  <link rel="stylesheet" href="../dist/styles.css" type="text/css">
+  <link rel="stylesheet" href="../css/styles.css" type="text/css">
   <!-- FontAwesome Offline -->
   <link rel="stylesheet" href="assets\fontawesome-web\css\all.css">
 </head>
@@ -16,8 +16,8 @@
 
   <div class="page-layout">
     <div class="header-content">
-    
-      <?php include(__DIR__ . '/inc/_header.php') ?>
+  
+      <?php include('../views/layouts/inc/_header.php') ?>
 
     </div>
     <div class="main-content">
