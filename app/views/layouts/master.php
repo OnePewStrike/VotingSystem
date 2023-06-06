@@ -14,10 +14,10 @@
 
 <body>
 
-  <div class="layout">
+  <div class="page-layout">
     <div class="header-content">
     
-      <?php include('views/inc/header.php') ?>
+      <?php include(__DIR__ . '/inc/_header.php') ?>
 
     </div>
     <div class="main-content">
