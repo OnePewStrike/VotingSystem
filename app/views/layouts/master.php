@@ -13,10 +13,23 @@
 </head>
 
 <body>
-  <main>
-    <?php include('views/inc/header.php') ?>
-    <?php include($contentView) ?>
-  </main>
+
+  <div class="layout">
+    <div class="header-content">
+    
+      <?php include('views/inc/header.php') ?>
+
+    </div>
+    <div class="main-content">
+      <main>
+  
+        <?php include($contentView) ?>
+  
+      </main>
+    </div>
+  </div>
+
+
 
   <!-- JS Link -->
   <script src="/app/js/script.js" type="text/javascript"></script>
