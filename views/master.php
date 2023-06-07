@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo $title; ?></title>
   <!-- CSS Link -->
-  <link rel="stylesheet" href="/app/css/styles.css" type="text/css">
-  <!-- FontAwesome Offline -->
-  <link rel="stylesheet" href="assets\fontawesome-web\css\all.css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <!-- Font Awesome Link -->
+  <script src="https://kit.fontawesome.com/84e2199ce0.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
   <div class="page">
     <div class="page__header">
 
-      <?php include('views/master.php') ?>
+      <?php include('views/inc/header.php') ?>
 
     </div>
     <div class="page__content">

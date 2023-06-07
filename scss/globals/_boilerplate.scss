@@ -19,17 +19,17 @@ body {
   font-family: util.$font;
   background-color: var(--background-color);
   color: var(--text-color);
-  display: grid;
-  align-items: center;
 }
 
 .page {
+  display: grid;
+  align-items: center;
 
   &__header {
-    padding: min(100% - 5em, 60em);
+    // padding: min(100% - 5em, 60em);
   }
   
   &__content {
-    padding: min(100% - 5em, 60em);
+    // padding: min(100% - 5em, 60em);
   }
 }
