@@ -17,7 +17,7 @@
   <div class="page">
     <div class="page__header">
 
-      <?php include('./views/layouts/inc/_header.php') ?>
+      <?php include('views/master.php') ?>
 
     </div>
     <div class="page__content">
