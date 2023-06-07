@@ -20,16 +20,3 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
-.page {
-  display: grid;
-  align-items: center;
-
-  &__header {
-    // padding: min(100% - 5em, 60em);
-  }
-  
-  &__content {
-    // padding: min(100% - 5em, 60em);
-  }
-}
