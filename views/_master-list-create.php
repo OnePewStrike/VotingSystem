@@ -13,7 +13,7 @@
   </div>
   <div class="content">
     <div class="content__row">
-      <form action="" method="">
+      <form class="modify" action="" method="">
         <span class="title">BASIC INFORMATION</span>
         <div class="fields">
           <div class="group">
@@ -44,7 +44,7 @@
       </form>
     </div>
   </div>
-  <div class="content__actions">
+  <div class="page__actions">
     <button class="primary">Add Student</button>
   </div>
 </div>

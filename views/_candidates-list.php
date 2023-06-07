@@ -9,19 +9,23 @@
     <div class="content__row">
       <div class="actions">
         <div class="actions__btn">
-          <button class="primary">
-            <i class="fa-regular fa-square-plus"></i>
-            <span class="name">Add Student</span>
-          </button>
+          <a href="candidates-list-create.php">
+            <button class="primary">
+              <i class="fa-regular fa-square-plus"></i>
+              <span class="name">Add Candidate</span>
+            </button>
+          </a>
           <button class="secondary">
             <i class="fa-solid fa-trash"></i>
             <span class="name">Delete All Candidates</span>
           </button>
         </div>
-        <button class="secondary">
-          <i class="fa-solid fa-eye"></i>
-          <span class="name">View Archived Candidates</span>
-        </button>
+        <a href="archived-candidates.php">
+          <button class="secondary">
+            <i class="fa-solid fa-eye"></i>
+            <span class="name">View Archived Candidates</span>
+          </button>
+        </a>
         <form class="search">
           <div class="search__group">
             <i class="fa-solid fa-magnifying-glass"></i>

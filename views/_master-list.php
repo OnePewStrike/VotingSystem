@@ -9,7 +9,13 @@
     <div class="content__row">
       <div class="actions">
         <div class="actions__btn">
-          <button class="primary">
+          <a href="master-list-create.php">
+            <button class="primary">
+              <i class="fa-regular fa-square-plus"></i>
+              <span class="name">Add Student</span>
+            </button>
+          </a>
+          <button class="secondary">
             <i class="fa-solid fa-file-import"></i>
             <span class="name">Import CSV</span>
           </button>
@@ -17,12 +23,6 @@
             <i class="fa-solid fa-file-export"></i>
             <span class="name">Export CSV</span>
           </button>
-          <a href="master-list-create.php">
-            <button class="secondary">
-              <i class="fa-regular fa-square-plus"></i>
-              <span class="name">Add Student</span>
-            </button>
-          </a>
         </div>
         <button class="filter">
           <span class="name">Status</span>
@@ -55,9 +55,11 @@
                 <td class="col3">Bachelor of Science in Computer Science</td>
                 <td class="col4">Not Enrolled</td>
                 <td class="col5">
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
+                  <a href="master-list-edit.php">
+                    <button class="secondary">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                  </a>
                   <button class="secondary">
                     <i class="fa-solid fa-pen-nib"></i>
                   </button>

@@ -14,20 +14,6 @@
   <div class="content">
     <div class="content__row">
       <div class="actions">
-        <div class="actions__btn">
-          <button class="primary">
-            <i class="fa-regular fa-square-plus"></i>
-            <span class="name">Add Student</span>
-          </button>
-          <button class="secondary">
-            <i class="fa-solid fa-trash"></i>
-            <span class="name">Delete All Candidates</span>
-          </button>
-        </div>
-        <button class="secondary">
-          <i class="fa-solid fa-eye"></i>
-          <span class="name">View Archived Candidates</span>
-        </button>
         <form class="search">
           <div class="search__group">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -44,7 +30,7 @@
             <th class="col3">Party Name</th>
             <th class="col4">Position</th>
             <th class="col4">Date Created</th>
-            <th class="col5">Actions</th>
+            <th class="col5">Election Involved</th>
           </tr>
         </thead>
         <tbody class="wide">
@@ -56,14 +42,7 @@
                 <td class="col3">Party People</td>
                 <td class="col4">President</td>
                 <td class="col4">01/01/2001 12:00:00 AM</td>
-                <td class="col5">
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-nib"></i>
-                  </button>
-                </td>
+                <td class="col4">Election 2023-2024</td>
               </tr>
             <?php } ?>
           </form>

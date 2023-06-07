@@ -20,6 +20,9 @@
       <li>
         <a href="message-editor.php">Message Editor</a>
       </li>
+      <li>
+        <a href="positions-list.php">Positions List</a>
+      </li>
     </ul>
   </div>
   <div class="header__right">

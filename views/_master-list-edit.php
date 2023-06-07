@@ -1,70 +1,50 @@
-<div class="container">
+<div class="container short">
   <div class="page__header">
     <div class="group">
-      <span class="group__title">Student Master List</span>
+      <span class="group__title">Edit Student</span>
+      <a href="master-list.php">
+        <button class="primary bold">
+          <i class="fa-solid fa-arrow-left-long"></i>
+          Go Back
+        </button>
+      </a>
     </div>
     <span class="description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...</span>
   </div>
   <div class="content">
     <div class="content__row">
-      <div class="actions">
-        <div class="actions__btn">
-          <button class="primary">
-            <i class="fa-solid fa-file-import"></i>
-            <span class="name">Import CSV</span>
-          </button>
-          <button class="secondary">
-            <i class="fa-solid fa-file-export"></i>
-            <span class="name">Export CSV</span>
-          </button>
-          <button class="secondary">
-            <i class="fa-regular fa-square-plus"></i>
-            <span class="name">Add Student</span>
-          </button>
-        </div>
-        <button class="filter">
-          <span class="name">Status</span>
-          <i class="fa-solid fa-angle-up"></i>
-        </button>
-        <form class="search">
-          <div class="search__group">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search...">
+      <form class="modify" action="" method="">
+        <span class="title">BASIC INFORMATION</span>
+        <div class="fields">
+          <div class="group">
+            <div class="field name">
+              <label for="first_name">First Name</label>
+              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+            </div>
+            <div class="field name">
+              <label for="last_name">Last Name</label>
+              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
+            </div>
+            <div class="field name">
+              <label for="middle_initial">M.I.</label>
+              <input id="middle_initial" type="middle_initial" class="form-control" name="middle_initial" required autocomplete="middle_initial">
+            </div>
           </div>
-          <i class="fa-solid fa-xmark search__exit"></i>
-        </form>
-      </div>
-      <table>
-        <thead>
-          <tr>
-            <th class="col1">Name</th>
-            <th class="col2">ID</th>
-            <th class="col3">College</th>
-            <th class="col4">Role</th>
-            <th class="col5">Actions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <form action="" method="">
-            <?php for ($i = 0; $i < 10; $i++) { ?>
-              <tr>
-                <td class="col1">Name Placeholder</td>
-                <td class="col2">CS101</td>
-                <td class="col3">Bachelor of Science in Computer Science</td>
-                <td class="col4">Not Enrolled</td>
-                <td class="col5">
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-nib"></i>
-                  </button>
-                </td>
-              </tr>
-            <?php } ?>
-          </form>
-        </tbody>
-      </table>
+          <div class="group">
+            <div class="field input">
+              <label for="student_id">Student ID</label>
+              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id" autofocus>
+            </div>
+            <div class="field input">
+              <label for="college">College</label>
+              <input id="college" type="college" class="form-control" name="college" required autocomplete="college">
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
+  </div>
+  <div class="page__actions">
+    <button type="submit" class="primary wide">Update</button>
   </div>
 </div>

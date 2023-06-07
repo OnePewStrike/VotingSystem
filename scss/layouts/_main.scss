@@ -23,6 +23,7 @@
     border-radius: 2px;
     display: flex;
     flex-direction: column;
+    gap: 0.5em;
     
     .group {
       display: flex;
@@ -50,49 +51,6 @@
       display: flex;
       flex-direction: column;
       gap: 1em;
-
-      form {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-
-        .title {
-          font-size: 1rem;
-          font-weight: 700;
-        }
-
-        .fields {
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          gap: 1em;
-  
-          .field {
-            flex: 50%;
-            display: flex;
-            flex-direction: column;
-            gap: 0.4em;
-  
-            input {
-              padding: 0.8em;
-            }
-          }
-  
-          .group {
-            display: flex;
-            gap: 1em;
-
-            .field.name {
-              flex: 45%;
-            }
-
-            .field.name:last-child {
-              flex: 10%;
-            }
-          }
-        }
-      }
-
       
       .actions {
         display: flex;
@@ -144,9 +102,24 @@
           
         }
 
+        tbody.wide {
+
+          tr {
+
+            td {
+              padding: 1em;
+            }
+          }
+        }
+
       }
     }
 
+  }
+  .page__actions {
+    display: flex;
+    justify-content: right;
+    padding: 0 1em;
   }
 }
 

@@ -29,6 +29,10 @@ button.secondary {
   background-color: var(--white-color);
 }
 
+button.wide {
+  padding: 0.6em 2em;
+}
+
 button.bold {
   font-weight: 700;
 }

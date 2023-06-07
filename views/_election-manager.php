@@ -9,10 +9,12 @@
     <div class="content__row">
       <div class="actions">
         <div class="actions__btn">
-          <button class="primary">
-            <i class="fa-solid fa-file-import"></i>
-            <span class="name">Created Record</span>
-          </button>
+          <a href="election-manager-create.php">
+            <button class="primary">
+              <i class="fa-solid fa-file-import"></i>
+              <span class="name">Create Record</span>
+            </button>
+          </a>
         </div>
         <button class="filter">
           <span class="name">Status</span>
@@ -37,7 +39,7 @@
             <th class="col5">End Time</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="wide">
           <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>

@@ -44,9 +44,11 @@
                   <button class="secondary">
                     <i class="fa-solid fa-check"></i>
                   </button>
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
+                  <a href="student-accounts-edit.php">
+                    <button class="secondary">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                  </a>
                   <button class="secondary">
                     <i class="fa-solid fa-trash"></i>
                   </button>

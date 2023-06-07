@@ -24,3 +24,69 @@
     cursor: pointer;
   }
 }
+
+.modify {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  .title {
+    font-size: 1rem;
+    font-weight: 700;
+        }
+
+  .fields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  
+    .field {
+      flex: 50%;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4em;
+            
+      label {
+        color: var(--grey-color);
+      }
+
+      input {
+        padding: 0.8em;
+        border: 1px solid var(--grey-color);
+        border-radius: 2px;
+      }
+
+      select {
+        padding: 0.8em;
+        border: 1px solid var(--grey-color);
+        border-radius: 2px;
+      }
+    }
+
+    .field.single {
+      width: 49%;
+    }
+    
+    .field.readonly {
+      
+      input {
+        background-color: var(--bg-color);
+        outline: none;
+      }
+    }
+  
+    .group {
+      display: flex;
+      gap: 1em;
+
+      .field.name {
+        flex: 45%;
+      }
+
+      .field.name:last-child {
+        flex: 5%;
+      }
+    }
+  }
+}
