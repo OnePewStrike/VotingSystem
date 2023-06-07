@@ -15,6 +15,7 @@
       font-size: 1.2rem;
       cursor: pointer;
       color: var(--white-color);
+      text-decoration: none;
     }
 
     .nav {
@@ -45,6 +46,8 @@
   &__right {
     display: flex;
     align-items: center;
+    border-radius: 2px;
+    padding: 0.5em;
     gap: 1em;
     cursor: pointer;
     color: var(--white-color);

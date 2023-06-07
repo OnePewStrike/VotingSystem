@@ -1,24 +1,24 @@
 <div class="header">
   <div class="header__left">
-    <a href="" class="logo">COMELEC</a>
+    <a href="master-list.php" class="logo">COMELEC</a>
     <ul class="nav">
       <li>
-        <a href="">Students Master List</a>
+        <a href="master-list.php">Students Master List</a>
       </li>
       <li>
-        <a href="">Students Accounts</a>
+        <a href="student-accounts.php">Students Accounts</a>
       </li>
       <li>
-        <a href="">Candidates List</a>
+        <a href="candidates-list.php">Candidates List</a>
       </li>
       <li>
-        <a href="">Election Manager</a>
+        <a href="election-manager.php">Election Manager</a>
       </li>
       <li>
-        <a href="">Announcement Editor</a>
+        <a href="announcement-editor.php">Announcement Editor</a>
       </li>
       <li>
-        <a href="">Message Editor</a>
+        <a href="message-editor.php">Message Editor</a>
       </li>
     </ul>
   </div>

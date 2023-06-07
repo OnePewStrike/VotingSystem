@@ -1,5 +1,5 @@
 button {
-  padding: 0.5em 0.8em;
+  padding: 0.6em 0.8em;
   color: var(--text-color);
   border: 1px solid var(--black-color);
   background-color: none;
@@ -29,11 +29,15 @@ button.secondary {
   background-color: var(--white-color);
 }
 
-button.filter {
-  gap: 2em;
-  background-color: var(--white-color);
+button.bold {
+  font-weight: 700;
 }
 
 button:hover {
   background-color: var(--hover-color);
+}
+
+button.filter {
+  gap: 2em;
+  background-color: var(--white-color);
 }

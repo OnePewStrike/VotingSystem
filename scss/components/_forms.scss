@@ -1,6 +1,26 @@
 .search {
-  border
-  &__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--black-color);
+  min-width: 25em;
+  border-radius: 2px;
 
+  &__group {
+    padding: 0.4em 0.8em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+    input {
+      outline: none;
+      border: none;
+    }
+  }
+
+  &__exit {
+    padding: 0 0.5em;
+    border-left: 1px solid var(--black-color);
+    cursor: pointer;
   }
 }
