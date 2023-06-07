@@ -1,10 +1,10 @@
 .header {
-  padding: 0.5em min(100% - 2em, 2em);
+  padding: 0.5em min(100% - 1.5em, 1.5em);
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: var(--primary-color);
-  color: var(--text-color);
+  color: var(--black-color);
   
   &__left {
     display: flex;
@@ -14,6 +14,7 @@
       font-weight: 700;
       font-size: 1.2rem;
       cursor: pointer;
+      color: var(--white-color);
     }
 
     .nav {
@@ -46,6 +47,7 @@
     align-items: center;
     gap: 1em;
     cursor: pointer;
+    color: var(--white-color);
 
     .user {
       display: flex;

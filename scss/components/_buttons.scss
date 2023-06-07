@@ -1,0 +1,39 @@
+button {
+  padding: 0.5em 0.8em;
+  color: var(--text-color);
+  border: 1px solid var(--black-color);
+  background-color: none;
+  outline: none;
+  border-radius: 2px;
+  transition: all .3s ease;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  cursor: pointer;
+
+  i {
+    font-size: 1rem;
+  }
+}
+
+button.primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+button.primary:hover {
+  color: var(--black-color);
+}
+
+button.secondary {
+  background-color: var(--white-color);
+}
+
+button.filter {
+  gap: 2em;
+  background-color: var(--white-color);
+}
+
+button:hover {
+  background-color: var(--hover-color);
+}

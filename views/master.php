@@ -20,13 +20,11 @@
       <?php include('views/inc/header.php') ?>
 
     </div>
-    <div class="page__content">
-      <main>
-
+    <main class="page__content">
+    
         <?php include($contentView) ?>
 
-      </main>
-    </div>
+    </main>
   </div>
 
 
