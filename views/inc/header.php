@@ -1,6 +1,6 @@
 <div class="header">
   <div class="header__left">
-    <a class="logo">COMELEC</a>
+    <a href="" class="logo">COMELEC</a>
     <ul class="nav">
       <li>
         <a href="">Students Master List</a>
