@@ -2,7 +2,7 @@
   <div class="page__header">
     <div class="group">
       <span class="group__title">Archived Candidates List</span>
-      <a href="">
+      <a href="election-manager.php">
         <button class="primary bold">
           <i class="fa-solid fa-angle-left"></i>
           Go Back

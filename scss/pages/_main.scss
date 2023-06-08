@@ -5,7 +5,7 @@
   &__header {
     // padding: min(100% - 1em, 1em);
   }
-  
+
   &__content {
     padding: 1.5em 0;
     color: var(--text-color);
@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    
+
     .group {
       display: flex;
       justify-content: space-between;
@@ -35,14 +35,18 @@
         font-weight: 700;
       }
     }
-    
+
     a {
       text-decoration: none;
     }
   }
-  
+
+  .page__header.wide {
+    margin-bottom: 0.5em;
+  }
+
   .content {
-    
+
     &__row {
       margin: 1em 0;
       padding: 1em 1em;
@@ -51,7 +55,7 @@
       display: flex;
       flex-direction: column;
       gap: 1em;
-      
+
       .actions {
         display: flex;
         align-items: center;
@@ -74,7 +78,8 @@
         width: 100%;
         border: 1px solid var(--border-color);
 
-        th, td {
+        th,
+        td {
           padding: 1em 1em;
           text-align: left;
         }
@@ -92,14 +97,14 @@
             td {
               padding: 0.5em;
             }
-            
+
             td.col5 {
               display: flex;
               gap: 0.5em;
             }
 
           }
-          
+
         }
 
         tbody.wide {
@@ -113,9 +118,25 @@
         }
 
       }
+
+      table.position {
+
+        tbody {
+
+          tr {
+
+            td.col5 {}
+          }
+        }
+      }
+    }
+
+    &__row.short {
+      margin: 0.5em 0;
     }
 
   }
+
   .page__actions {
     display: flex;
     justify-content: right;
@@ -124,5 +145,5 @@
 }
 
 .container.short {
-  padding: 0 30em;
+  padding: 0 20em;
 }
