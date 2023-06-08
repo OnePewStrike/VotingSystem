@@ -21,7 +21,7 @@
               <label for="first_name">Student ID</label>
               <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
             </div>
-            <div class="field">
+            <div class="field readonly">
               <label for="last_name">Name</label>
               <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name" readonly>
             </div>

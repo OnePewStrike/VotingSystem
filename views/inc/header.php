@@ -25,7 +25,7 @@
       </li>
     </ul>
   </div>
-  <div class="header__right">
+  <div class="header__right" id="user-btn">
     <div class="header__separator"></div>
     <div class="user">
       <span class="user__name">Name Placeholder</span>

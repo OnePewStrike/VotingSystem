@@ -1,8 +1,8 @@
 <div class="container short">
   <div class="page__header">
     <div class="group">
-      <span class="group__title">Add Position</span>
-      <a href="positions-list.php">
+      <span class="group__title">Add Account</span>
+      <a href="accounts-admin.php">
         <button class="primary bold">
           <i class="fa-solid fa-arrow-left-long"></i>
           Go Back
@@ -17,34 +17,37 @@
         <span class="title">BASIC INFORMATION</span>
         <div class="fields">
           <div class="group">
-            <div class="field">
-              <label for="first_name">Position Name</label>
+            <div class="field input">
+              <label for="first_name">Student ID</label>
               <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
             </div>
-            <div class="field">
-              <label for="last_name">Number of Candidates to be Elected</label>
+            <div class="field input">
+              <label for="last_name">Password</label>
               <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
             </div>
           </div>
           <div class="group">
             <div class="field input">
-              <label for="student_id">All Colleges</label>
-              <input id="student_id" type="checkbox" class="form-control" name="student_id" required autocomplete="student_id">
+              <label for="student_id">Username</label>
+              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id" autofocus>
             </div>
-            <div class="field input">
-              <label for="college">College</label>
-              <input id="college" type="college" class="form-control" name="college" required autocomplete="college">
+            <div class="field short">
+              <label for="student_id">User Role</label>
+              <select name="position_id">
+                <option value="0">Select Role</option>
+                <option value="1">Super Admin</option>
+                <option value="2">Admin</option>
+                <option value="3">Student Accounts Manager</option>
+                <option value="4">Commissioner</option>
+                <option value="5">Poll Workers</option>
+              </select>
             </div>
-          </div>
-          <div class="field input">
-            <label for="college">Description</label>
-            <textarea id="college" type="college" class="form-control" name="college" required autocomplete="college"></textarea>
           </div>
         </div>
       </form>
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Add Position</button>
+    <button class="primary wide">Add Account</button>
   </div>
 </div>

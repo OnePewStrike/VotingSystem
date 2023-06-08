@@ -13,7 +13,7 @@
 }
 
 .container {
-  padding: 0 12em;
+  padding: 4.5em 12em;
   display: flex;
   flex-direction: column;
 
@@ -33,6 +33,36 @@
       &__title {
         font-size: 1.4rem;
         font-weight: 700;
+        flex: 60%;
+      }
+
+      &__description {
+        flex: 40%;
+        text-align: right;
+      }
+    }
+
+    .tab {
+      display: flex;
+      gap: 1em;
+
+      .selector {
+        position: relative;
+        color: var(--black-color);
+      }
+
+      .selector::after {
+        position: absolute;
+        content: "";
+        bottom: -1em;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: var(--grey-color);
+      }
+
+      .selector.active::after {
+        background-color: var(--black-color);
       }
     }
 
@@ -62,6 +92,11 @@
         padding: 0.2em;
         gap: 0.5em;
 
+        .title {
+          font-size: 1.3rem;
+          font-weight: 700;
+        }
+
         &__btn {
           display: flex;
           gap: 0.5em;
@@ -70,6 +105,10 @@
         a {
           text-decoration: none;
         }
+      }
+
+      .actions.spaced {
+        justify-content: space-between;
       }
 
       table {
@@ -118,23 +157,82 @@
         }
 
       }
-
-      table.position {
-
-        tbody {
-
-          tr {
-
-            td.col5 {}
-          }
-        }
-      }
     }
 
     &__row.short {
       margin: 0.5em 0;
     }
 
+  }
+
+  .content.group {
+    display: flex;
+    gap: 1em;
+
+    .content__row {
+      flex: 80%;
+    }
+
+    .content__details {
+      margin: 1em 0;
+      padding: 1em 1em 0;
+      flex: 20%;
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+      max-height: 40em;
+
+      .header-details {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1em;
+        border-bottom: 1px solid var(--grey-color);
+
+        .group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5em;
+
+          .title {
+            font-weight: 700;
+          }
+
+          .set {
+            color: var(--grey-color);
+          }
+        }
+      }
+
+      .election-details {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8em;
+        padding-bottom: 1em;
+        border-bottom: 1px solid var(--grey-color);
+
+        .title {
+          font-weight: 700;
+        }
+
+        .group {
+          display: flex;
+          flex-direction: column;
+          gap: 0.2em;
+
+          .name {
+            font-weight: 700;
+            color: var(--grey-color);
+          }
+        }
+      }
+
+      .actions {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+      }
+    }
   }
 
   .page__actions {
@@ -145,5 +243,9 @@
 }
 
 .container.short {
-  padding: 0 20em;
+  padding: 4.5em 20em;
+}
+
+.container.wide {
+  padding: 4.5em 8em;
 }

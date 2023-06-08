@@ -18,6 +18,7 @@
     <div class="page__header">
 
       <?php include('views/inc/header.php') ?>
+      <?php include('views/inc/modals.php') ?>
 
     </div>
     <main class="page__content">
@@ -30,7 +31,7 @@
 
 
   <!-- JS Link -->
-  <script src="/app/js/script.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

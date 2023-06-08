@@ -15,7 +15,7 @@
       <div class="fields">
         <div class="field full">
           <label for="first_name">Unverified Account</label>
-          <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus value="Your account will be verified by the COMELEC. Please wait until further notice.">
+          <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" value="Your account will be verified by the COMELEC. Please wait until further notice.">
         </div>
         <div class="field full">
           <label for="first_name">Inactive Account</label>
@@ -25,13 +25,13 @@
     </div>
     <div class="content__row short">
       <div class="details">
-       <span class="title">Register / Log In Page</span>
-       <span class="description">These are messages that appear in Register and Log In pages when an error occurs.</span>
+        <span class="title">Register / Log In Page</span>
+        <span class="description">These are messages that appear in Register and Log In pages when an error occurs.</span>
       </div>
       <div class="fields">
         <div class="field full">
           <label for="first_name">Non-existent Student ID inputted</label>
-          <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus value="Student ID does not exist in the system. Contact COMELEC. If there is an issue.">
+          <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" value="Student ID does not exist in the system. Contact COMELEC. If there is an issue.">
         </div>
         <div class="field full">
           <label for="first_name">Student ID exists but belongs to another account during register</label>
@@ -73,8 +73,8 @@
     </div>
     <div class="content__row short">
       <div class="details">
-       <span class="title">Results Page</span>
-       <span class="description">These are messages shown in the results page.</span>
+        <span class="title">Results Page</span>
+        <span class="description">These are messages shown in the results page.</span>
       </div>
       <div class="fields">
         <div class="field full">
@@ -88,13 +88,13 @@
         <div class="field full">
             <label for="first_name">No active election</label>
             <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" value="There is no incoming election yet.">
-         </div>
-       </div>
+        </div>
+      </div>
     </div>
     <div class="content__row short">
       <div class="details">
-       <span class="title">Defaults</span>
-       <span class="description">These are</span>
+        <span class="title">Defaults</span>
+        <span class="description">These are</span>
       </div>
       <div class="fields">
         <div class="field full">

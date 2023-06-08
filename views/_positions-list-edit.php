@@ -39,6 +39,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Add Position</button>
+    <button class="primary wide">Update Position</button>
   </div>
 </div>

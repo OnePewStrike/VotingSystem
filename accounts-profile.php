@@ -1,5 +1,5 @@
 <?php
   $title = 'Home';
-  $contentView = 'views/_accounts-create.php';
+  $contentView = 'views/_accounts-profile.php';
   include('views/master.php');
 ?>

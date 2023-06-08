@@ -5,10 +5,10 @@
       <span class="group__description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...</span>
     </div>
     <div class="tab">
-      <a href="">
+      <a href="accounts-profile.php">
         <span class="selector active">My Profile</span>
       </a>
-      <a href="">
+      <a href="accounts-admin.php">
         <span class="selector">Accounts</span>
       </a>
     </div>

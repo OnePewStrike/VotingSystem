@@ -1,19 +1,29 @@
-<div class="container">
+<div class="container short">
   <div class="page__header">
     <div class="group">
-      <span class="group__title">Archived Candidates List</span>
-      <a href="candidates-list.php">
-        <button class="primary bold">
-          <i class="fa-solid fa-angle-left"></i>
-          Go Back
-        </button>
+      <span class="group__title">Administrator's Account</span>
+      <span class="group__description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...</span>
+    </div>
+    <div class="tab">
+      <a href="accounts-profile.php">
+        <span class="selector">My Profile</span>
+      </a>
+      <a href="accounts-admin.php">
+        <span class="selector active">Accounts</span>
       </a>
     </div>
-    <span class="description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet...</span>
   </div>
   <div class="content">
     <div class="content__row">
       <div class="actions">
+        <div class="actions__btn">
+          <a href="accounts-admin-create.php">
+            <button class="primary">
+              <i class="fa-regular fa-square-plus"></i>
+              <span class="name">Add Account</span>
+            </button>
+          </a>
+        </div>
         <form class="search">
           <div class="search__group">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -27,22 +37,26 @@
           <tr>
             <th class="col1">Name</th>
             <th class="col2">ID</th>
-            <th class="col3">Party Name</th>
-            <th class="col4">Position</th>
-            <th class="col4">Date Created</th>
-            <th class="col5">Election Involved</th>
+            <th class="col3">Password</th>
+            <th class="col4">Role</th>
+            <th class="col5">Actions</th>
           </tr>
         </thead>
-        <tbody class="wide">
+        <tbody>
           <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
                 <td class="col2">CS101</td>
-                <td class="col3">Party People</td>
-                <td class="col4">President</td>
-                <td class="col4">01/01/2001 12:00:00 AM</td>
-                <td class="col4">Election 2023-2024</td>
+                <td class="col3">Bachelor of Science in Computer Science</td>
+                <td class="col4">Admin</td>
+                <td class="col5">
+                  <a href="accounts-admin-edit.php">
+                    <button class="secondary">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                  </a>
+                </td>
               </tr>
             <?php } ?>
           </form>

@@ -12,7 +12,7 @@
         <div class="fields">
           <div class="field full">
             <label for="first_name">Embedded Article</label>
-            <textarea id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus></textarea> 
+            <textarea id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name"></textarea> 
           </div>
         </div>
       </form>
