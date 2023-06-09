@@ -50,7 +50,7 @@
                 <td class="col4">1/01/2001 12:00:00 AM</td>
                 <td class="col5">1/01/2001 12:00:00 AM</td>
               </tr>
-            <?php } ?>s
+            <?php } ?>
         </tbody>
       </table>
     </div>
