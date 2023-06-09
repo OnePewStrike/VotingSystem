@@ -90,6 +90,10 @@
  display: flex;
 }
 
+.account-delete.active {
+ display: flex;
+}
+
 .modal.active {
  display: flex;
 }

@@ -53,7 +53,24 @@
    </div>
    <div class="actions">
     <button class="primary wide" type="submit">Submit</button>
-    <button class="secondary wide" id="modal-exit-btn">Cancel</button>
    </div>
  </form>
+</div>
+
+<div class="modal account-delete">
+  <div class="wrapper">
+   <div class="exit">
+    <button class="secondary" id="account-delete-exit-btn">
+     <i class="fa-solid fa-xmark"></i>
+    </button>
+   </div>
+   <div class="group">
+    <span class="title">Are you sure you want to delete your account?</span>
+    <span class="description">Your account will be permanently deleted. This cannot be undone.</span>
+   </div>
+   <div class="actions">
+    <button class="primary wide">Delete</button>
+    <button class="secondary wide" id="modal-exit-btn">Cancel</button>
+   </div>
+  </div>
 </div>

@@ -57,19 +57,16 @@
       </form>
     </div>
     <div class="content__row">
-      <form class="modify" action="" method="">
+      <div class="settings">
         <span class="title">SETTINGS</span>
-        <div class="fields">
           <div class="group">
-            <div class="field text-gray">
-            <label for="delete_account">Would you like to delete your account?</label>
-            </div>
-            <div class="field button">
-            <button class="primary wide" type="submit">Delete Account</button>
+            <span class="name">Would you like to delete your account?</span>
+            <div class="actions">
+              <button class="primary wide" id="account-delete-btn">Delete Account</button>
             </div>
           </div>
         </div>
-      </form>
+      </div>
     </div>
   </div>
 </div>
