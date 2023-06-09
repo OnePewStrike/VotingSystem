@@ -25,10 +25,11 @@
             <span class="name">Export CSV</span>
           </button>
         </div>
-        <button class="filter">
-          <span class="name">Status</span>
-          <i class="fa-solid fa-angle-up"></i>
-        </button>
+        <select class="filter" name="status">
+          <option value="0">Select Status</option>
+          <option value="1">Not Enrolled</option>
+          <option value="2">Enrolled</option>
+        </select>
         <form class="search">
           <div class="search__group">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -60,9 +61,6 @@
                       <i class="fa-solid fa-pen-to-square"></i>
                     </button>
                   </a>
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-nib"></i>
-                  </button>
                 </td>
               </tr>
             <?php } ?>

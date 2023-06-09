@@ -17,10 +17,12 @@
             </button>
           </a>
         </div>
-        <button class="filter">
-          <span class="name">Status</span>
-          <i class="fa-solid fa-angle-up"></i>
-        </button>
+        <select class="filter" name="status">
+          <option value="0">Select Status</option>
+          <option value="1">Archived</option>
+          <option value="2">Final</option>
+          <option value="2">Cancelled</option>
+        </select>
         <form class="search">
           <div class="search__group">
             <i class="fa-solid fa-magnifying-glass"></i>

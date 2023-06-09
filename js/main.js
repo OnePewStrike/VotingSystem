@@ -65,10 +65,10 @@ denyButton.addEventListener('click', () => {
  verifyModal.classList.remove('active');
 });
 
-accountDeleteButton.addEventListener('click', () => {
- accountDeleteModal.classList.toggle('active');
-});
-
 deleteButton.addEventListener('click', () => {
  deleteModal.classList.toggle('active');
+});
+
+accountDeleteButton.addEventListener('click', () => {
+ accountDeleteModal.classList.toggle('active');
 });
