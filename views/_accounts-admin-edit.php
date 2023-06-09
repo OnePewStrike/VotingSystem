@@ -19,18 +19,18 @@
         <div class="fields">
           <div class="group">
             <div class="field readonly">
-              <label for="first_name">Student ID</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus readonly>
+              <label for="student_id">Student ID</label>
+              <input id="student_id" type="text" class="form-control" name="student_id" required autocomplete="student_id" readonly>
             </div>
             <div class="field input">
-              <label for="last_name">Password</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
+              <label for="password">Password</label>
+              <input id="password" type="password" class="form-control" name="password" required autocomplete="password">
             </div>
           </div>
           <div class="group">
             <div class="field input">
-              <label for="student_id">Username</label>
-              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id">
+              <label for="username">Username</label>
+              <input id="username" type="text" name="username" required autocomplete="username">
             </div>
             <div class="field short">
               <label for="student_id">User Role</label>

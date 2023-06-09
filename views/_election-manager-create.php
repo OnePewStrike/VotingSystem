@@ -19,20 +19,20 @@
         <div class="fields">
           <div class="field single">
             <label for="election_name">Election Record Name</label>
-            <input id="election_name" type="election_name" class="form-control" name="election_name" required autocomplete="election_name" autofocus>
+            <input id="election_name" type="text" name="election_name" required autocomplete="election_name" autofocus>
           </div>
           <div class="group">
             <div class="field">
-              <label for="first_name">Election Start Date</label>
-              <input id="first_name" type="date" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="start_date">Election Start Date</label>
+              <input id="start_date" type="date" name="start_date" required autocomplete="start_date">
             </div>
             <div class="field">
-              <label for="last_name">Election End Date</label>
-              <input id="last_name" type="date" class="form-control" name="last_name" required autocomplete="last_name">
+              <label for="end_date">Election End Date</label>
+              <input id="end_date" type="date" name="end_date" required autocomplete="end_date">
             </div>
             <div class="field readonly">
-              <label for="last_name">Status</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name" readonly>
+              <label for="status">Status</label>
+              <input id="status" type="text" name="status" required autocomplete="status" readonly>
             </div>
           </div>
         </div>

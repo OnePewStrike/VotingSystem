@@ -19,12 +19,12 @@
         <div class="fields">
           <div class="group">
             <div class="field">
-              <label for="first_name">Name</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required autocomplete="name" autofocus>
             </div>
             <div class="field">
               <label for="password">Password</label>
-              <input id="password" type="password" class="form-control" name="password" required autocomplete="password">
+              <input id="password" type="password" name="password" required autocomplete="password">
             </div>
           </div>
           <div class="field input single">

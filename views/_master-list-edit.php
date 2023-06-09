@@ -20,25 +20,25 @@
           <div class="group">
             <div class="field name">
               <label for="first_name">First Name</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <input id="first_name" type="text" name="first_name" required autocomplete="first_name" autofocus>
             </div>
             <div class="field name">
               <label for="last_name">Last Name</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
+              <input id="last_name" type="text" name="last_name" required autocomplete="last_name">
             </div>
             <div class="field name">
               <label for="middle_initial">M.I.</label>
-              <input id="middle_initial" type="middle_initial" class="form-control" name="middle_initial" required autocomplete="middle_initial">
+              <input id="middle_initial" type="text" name="middle_initial" required autocomplete="middle_initial">
             </div>
           </div>
           <div class="group">
             <div class="field input">
               <label for="student_id">Student ID</label>
-              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id" autofocus>
+              <input id="student_id" type="text" name="student_id" required autocomplete="student_id">
             </div>
             <div class="field input">
               <label for="college">College</label>
-              <input id="college" type="college" class="form-control" name="college" required autocomplete="college">
+              <input id="college" type="text" name="college" required autocomplete="college">
             </div>
           </div>
         </div>

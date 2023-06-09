@@ -28,12 +28,12 @@
             </div>
           </div>
           <div class="field single">
-            <label for="colleges">Colleges</label>
-            <input id="colleges" type="text" class="form-control" name="colleges" required autocomplete="colleges">
+            <label for="all_colleges">Colleges</label>
+            <input id="all_colleges" type="text" name="all_colleges" required autocomplete="all_colleges">
           </div>
           <div class="field input">
             <label for="college">Description</label>
-            <textarea id="college" type="text" class="form-control" name="college" required autocomplete="college"></textarea>
+            <textarea id="college" type="text" name="college" required autocomplete="college"></textarea>
           </div>
         </div>
       </form>

@@ -22,12 +22,12 @@
         <div class="fields">
           <div class="group">
             <div class="field input">
-              <label for="first_name">Student ID</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="student_id">Student ID</label>
+              <input id="student_id" type="text" name="student_id" required autocomplete="student_id" autofocus>
             </div>
             <div class="field input">
-              <label for="last_name">Name</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name" readonly>
+              <label for="username">Name</label>
+              <input id="username" type="text" name="username" required autocomplete="username">
             </div>
           </div>
           <div class="field button">
@@ -42,12 +42,12 @@
         <div class="fields">
           <div class="group">
             <div class="field input">
-              <label for="first_name">New Password</label>
-              <input id="first_name" type="password" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="password">New Password</label>
+              <input id="password" type="password" name="password" required autocomplete="password">
             </div>
             <div class="field input">
-              <label for="last_name">Re-enter Password</label>
-              <input id="last_name" type="password" class="form-control" name="last_name" required autocomplete="last_name" readonly>
+              <label for="confirm_password">Re-enter Password</label>
+              <input id="confirm_password" type="password" name="confirm_password" required autocomplete="confirm_password">
             </div>
           </div>
           <div class="field button">
@@ -62,7 +62,7 @@
         <div class="fields">
           <div class="group">
             <div class="field text-gray">
-            <label for="first_name">Would you like to delete your account?</label>
+            <label for="delete_account">Would you like to delete your account?</label>
             </div>
             <div class="field button">
             <button class="primary wide" type="submit">Delete Account</button>

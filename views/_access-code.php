@@ -4,15 +4,15 @@
     <span class="title">Access Code Generator</span>
     <div class="fields">
       <div class="field full">
-        <label for="student_id">Username</label>
-        <input id="student_id" type="text" class="form-control" name="student_id" required autocomplete="student_id" placeholder="e.g., 2932778">
+        <label for="user_name">Username</label>
+        <input id="user_name" type="text" name="user_name" required autocomplete="username" placeholder="e.g., 2932778" autofocus>
       </div>
       <div class="field full">
-        <label for="student_id">Password</label>
-        <input id="student_id" type="password" class="form-control" name="student_id" required autocomplete="student_id">
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" required autocomplete="password">
       </div>
       <div class="field button">
-        <button class="primary">Generate Code</button>
+        <button type="submit" class="primary">Generate Code</button>
       </div>
     </div>
   </form>

@@ -19,22 +19,22 @@
         <div class="fields">
           <div class="group">
             <div class="field input">
-              <label for="first_name">Student ID</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="student_id">Student ID</label>
+              <input id="student_id" type="text" name="student_id" required autocomplete="student_id" autofocus>
             </div>
             <div class="field input">
               <label for="last_name">Password</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
+              <input id="last_name" type="text" name="last_name" required autocomplete="last_name">
             </div>
           </div>
           <div class="group">
             <div class="field input">
-              <label for="student_id">Username</label>
-              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id">
+              <label for="username">Username</label>
+              <input id="username" type="text" name="username" required autocomplete="username">
             </div>
             <div class="field short">
-              <label for="student_id">User Role</label>
-              <select name="position_id">
+              <label for="user_role">User Role</label>
+              <select name="user_role">
                 <option value="0">Select Role</option>
                 <option value="1">Super Admin</option>
                 <option value="2">Admin</option>

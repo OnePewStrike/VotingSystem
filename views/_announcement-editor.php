@@ -12,8 +12,8 @@
         <span class="title">PAGE INFORMATION</span>
         <div class="fields">
           <div class="field full">
-            <label for="first_name">Embedded Article</label>
-            <textarea id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name"></textarea> 
+            <label for="article">Embedded Article</label>
+            <textarea id="article" type="text" name="article" required autocomplete="article"></textarea> 
           </div>
         </div>
       </form>

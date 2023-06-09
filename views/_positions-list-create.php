@@ -19,27 +19,27 @@
         <div class="fields">
           <div class="group">
             <div class="field">
-              <label for="first_name">Position Name</label>
-              <input id="first_name" type="first_name" class="form-control" name="first_name" required autocomplete="first_name" autofocus>
+              <label for="position_name">Position Name</label>
+              <input id="position_name" type="text" name="position_name" required autocomplete="position_name" autofocus>
             </div>
             <div class="field">
-              <label for="last_name">Number of Candidates to be Elected</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name">
+              <label for="num_candidates_elected">Number of Candidates to be Elected</label>
+              <input id="num_candidates_elected" type="text" name="num_candidates_elected" required autocomplete="num_candidates_elected">
             </div>
           </div>
           <div class="group">
             <div class="field input">
-              <label for="student_id">All Colleges</label>
-              <input id="student_id" type="checkbox" class="form-control" name="student_id" required autocomplete="student_id">
+              <label for="all_colleges">All Colleges</label>
+              <input id="all_colleges" type="checkbox" name="all_colleges" required autocomplete="all_colleges">
             </div>
             <div class="field input">
               <label for="college">College</label>
-              <input id="college" type="college" class="form-control" name="college" required autocomplete="college">
+              <input id="college" type="text" name="college" required autocomplete="college">
             </div>
           </div>
           <div class="field input">
-            <label for="college">Description</label>
-            <textarea id="college" type="college" class="form-control" name="college" required autocomplete="college"></textarea>
+            <label for="description">Description</label>
+            <textarea id="description" type="text" name="description" required autocomplete="description"></textarea>
           </div>
         </div>
       </form>

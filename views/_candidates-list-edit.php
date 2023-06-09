@@ -19,18 +19,18 @@
         <div class="fields">
           <div class="group">
             <div class="field readonly">
-              <label for="last_name">Student ID</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name" readonly>
+              <label for="student_id">Student ID</label>
+              <input id="student_id" type="text"  name="student_id" required autocomplete="student_id" readonly>
             </div>
             <div class="field readonly">
-              <label for="last_name">Name</label>
-              <input id="last_name" type="last_name" class="form-control" name="last_name" required autocomplete="last_name" readonly>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required autocomplete="name" readonly>
             </div>
           </div>
           <div class="group">
             <div class="field input">
-              <label for="student_id">Position</label>
-              <select name="position_id">
+              <label for="position">Position</label>
+              <select name="position">
                 <option value="0">Select Position</option>
                 <option value="1">President</option>
                 <option value="2">Vice President</option>
@@ -41,8 +41,8 @@
               </select>
             </div>
             <div class="field input">
-              <label for="college">Party Name</label>
-              <input id="college" type="college" class="form-control" name="college" required autocomplete="college">
+              <label for="party_name">Party Name</label>
+              <input id="party_name" type="text" name="party_name" required autocomplete="party_name">
             </div>
           </div>
         </div>
