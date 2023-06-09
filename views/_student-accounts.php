@@ -76,3 +76,7 @@
     </a>
   </div>
 </div>
+
+<!-- JS Link -->
+<script src="js/delete.js" type="text/javascript"></script>
+<script src="js/verify.js" type="text/javascript"></script>

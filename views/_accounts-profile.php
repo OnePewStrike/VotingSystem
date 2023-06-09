@@ -70,3 +70,6 @@
     </div>
   </div>
 </div>
+
+<!-- JS Link -->
+<script src="js/accounts.js" type="text/javascript"></script>

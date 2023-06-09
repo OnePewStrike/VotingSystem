@@ -14,6 +14,21 @@
       <li>
         <a href="election-manager.php">Election Manager</a>
       </li>
+      <li id="see-more-btn">
+        <span class="name">See More</span>
+        <i class="fa-solid fa-angle-up" id="see-more-angle"></i>
+      </li>
+      <li>
+        <a href="announcement-editor.php">Announcement Editor</a>
+      </li>
+      <li>
+        <a href="message-editor.php">Message Editor</a>
+      </li>
+      <li>
+        <a href="positions-list.php">Positions List</a>
+      </li>
+    </ul>
+    <ul class="menu see-more">
       <li>
         <a href="announcement-editor.php">Announcement Editor</a>
       </li>
@@ -33,7 +48,7 @@
     </div>
     <div class="group">
       <i class="fa-solid fa-circle-user group__icon"></i>
-      <i class="fa-solid fa-angle-down group__icon"></i>
+      <i class="fa-solid fa-angle-up group__icon" id="user-angle"></i>
     </div>
   </div>
 </div>

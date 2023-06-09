@@ -78,22 +78,23 @@
  }
 }
 
-.delete.active {
- display: flex;
+.modal,
+.delete,
+.verify,
+.deny,
+.account {
+ opacity: 0;
+ pointer-events: none;
+ transition: opacity 0.3s ease;
+ display: none;
 }
 
-.verify.active {
- display: flex;
-}
-
-.deny.active {
- display: flex;
-}
-
-.account-delete.active {
- display: flex;
-}
-
-.modal.active {
+.modal.active,
+.delete.active,
+.verify.active,
+.deny.active,
+.account.active {
+ opacity: 1;
+ pointer-events: auto;
  display: flex;
 }

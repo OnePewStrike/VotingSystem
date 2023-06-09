@@ -17,7 +17,7 @@
   </div>
 </div>
 
-<div class="modal verify" id="verify-exit-btn">
+<div class="modal verify">
   <div class="wrapper">
     <div class="exit">
       <button class="secondary">
@@ -57,7 +57,7 @@
   </form>
 </div>
 
-<div class="modal account-delete">
+<div class="modal account">
   <div class="wrapper">
     <div class="exit">
       <button class="secondary" id="account-delete-exit-btn">
