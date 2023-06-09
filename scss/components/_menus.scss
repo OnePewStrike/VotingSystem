@@ -36,6 +36,19 @@
  }
 }
 
+.menu::before {
+ content: "";
+ position: absolute;
+ left: 50%;
+ top: 100%;
+ transform: translateX(-50%);
+ border: 15px solid;
+ border-top: 16px solid #5B2300;
+ border-left: 16px solid transparent;
+ border-right: 16px solid transparent;
+ border-bottom: 0px solid transparent;
+}
+
 
 .user.active {
  right: 2%;

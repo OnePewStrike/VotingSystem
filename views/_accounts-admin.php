@@ -44,7 +44,6 @@
           </tr>
         </thead>
         <tbody>
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -60,7 +59,6 @@
                 </td>
               </tr>
             <?php } ?>
-          </form>
         </tbody>
       </table>
     </div>

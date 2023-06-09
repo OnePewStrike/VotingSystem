@@ -47,7 +47,6 @@
           </tr>
         </thead>
         <tbody>
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -56,16 +55,17 @@
                 <td class="col4">President</td>
                 <td class="col4">01/01/2001 12:00:00 AM</td>
                 <td class="col5">
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-to-square"></i>
-                  </button>
-                  <button class="secondary">
-                    <i class="fa-solid fa-pen-nib"></i>
+                  <a href="candidates-list-edit.php">
+                    <button class="secondary">
+                      <i class="fa-solid fa-pen-to-square"></i>
+                    </button>
+                  </a>
+                  <button class="secondary" id="delete-btn">
+                    <i class="fa-solid fa-trash"></i>
                   </button>
                 </td>
               </tr>
             <?php } ?>
-          </form>
         </tbody>
       </table>
     </div>

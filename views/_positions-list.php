@@ -37,7 +37,6 @@
           </tr>
         </thead>
         <tbody>
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -46,7 +45,7 @@
                 <td class="col4">All Colleges</td>
                 <td class="col5">1</td>
                 <td class="col6">
-                  <a href="master-list-edit.php">
+                  <a href="positions-list-edit.php">
                     <button class="secondary">
                       <i class="fa-solid fa-pen-to-square"></i>
                     </button>
@@ -54,7 +53,6 @@
                 </td>
               </tr>
             <?php } ?>
-          </form>
         </tbody>
       </table>
     </div>

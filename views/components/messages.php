@@ -6,7 +6,7 @@
    <span class="description">The developers have updated new things. Please check the patch notes!</span>
   </div>
  </div>
- <button class="secondary">
+ <button class="secondary" id="exit-message">
   <i class="fa-solid fa-xmark"></i>
  </button>
 </div>
@@ -19,7 +19,7 @@
    <span class="description">The data row was successfully deleted.</span>
   </div>
  </div>
- <button class="secondary">
+ <button class="secondary"  id="exit-message">
   <i class="fa-solid fa-xmark"></i>
  </button>
 </div>
@@ -32,7 +32,7 @@
    <span class="description">The password does not match. Please try again!</span>
   </div>
  </div>
- <button class="secondary">
+ <button class="secondary"  id="exit-message">
   <i class="fa-solid fa-xmark"></i>
  </button>
 </div>
@@ -45,7 +45,7 @@
    <span class="description">Looks like something went wrong to the database. Try again.</span>
   </div>
  </div>
- <button class="secondary">
+ <button class="secondary"  id="exit-message">
   <i class="fa-solid fa-xmark"></i>
  </button>
 </div>

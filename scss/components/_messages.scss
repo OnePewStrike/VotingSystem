@@ -34,6 +34,10 @@
  }
 }
 
+.message.active {
+ display: none;
+}
+
 .message.info {
  border-left: 4px solid var(--info-color);
 

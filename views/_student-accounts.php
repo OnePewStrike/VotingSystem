@@ -33,7 +33,6 @@
           </tr>
         </thead>
         <tbody>
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -50,13 +49,12 @@
                       <i class="fa-solid fa-pen-to-square"></i>
                     </button>
                   </a>
-                  <button class="secondary">
+                  <button class="secondary" id="delete-btn">
                     <i class="fa-solid fa-trash"></i>
                   </button>
                 </td>
               </tr>
             <?php } ?>
-          </form>
         </tbody>
       </table>
     </div>

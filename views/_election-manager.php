@@ -41,7 +41,6 @@
           </tr>
         </thead>
         <tbody class="wide">
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -51,8 +50,7 @@
                 <td class="col4">1/01/2001 12:00:00 AM</td>
                 <td class="col5">1/01/2001 12:00:00 AM</td>
               </tr>
-            <?php } ?>
-          </form>
+            <?php } ?>s
         </tbody>
       </table>
     </div>

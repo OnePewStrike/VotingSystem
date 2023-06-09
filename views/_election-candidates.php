@@ -38,7 +38,6 @@
           </tr>
         </thead>
         <tbody>
-          <form action="" method="">
             <?php for ($i = 0; $i < 10; $i++) { ?>
               <tr>
                 <td class="col1">Name Placeholder</td>
@@ -47,7 +46,7 @@
                 <td class="col4">Win</td>
                 <td class="col5">Neque porro quisquam est qui dolorem...</td>
                 <td class="col6">
-                  <a href="master-list-edit.php">
+                  <a href="election-candidates-edit.php">
                     <button class="secondary">
                       <i class="fa-solid fa-pen-to-square"></i>
                     </button>
@@ -55,7 +54,6 @@
                 </td>
               </tr>
             <?php } ?>
-          </form>
         </tbody>
       </table>
     </div>
