@@ -60,7 +60,7 @@
                       <i class="fa-solid fa-pen-to-square"></i>
                     </button>
                   </a>
-                  <button class="secondary" id="delete-btn">
+                  <button class="secondary">
                     <i class="fa-solid fa-pen-nib"></i>
                   </button>
                 </td>

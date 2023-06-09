@@ -41,7 +41,7 @@
                 <td class="col4">Not Verified</td>
                 <td class="col4">01/01/2001 12:00:00 AM</td>
                 <td class="col5">
-                  <button class="secondary">
+                  <button class="secondary" id="verify-btn">
                     <i class="fa-solid fa-check"></i>
                   </button>
                   <a href="student-accounts-edit.php">

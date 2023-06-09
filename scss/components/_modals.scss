@@ -21,7 +21,6 @@
   flex-direction: column;
   gap: 2em;
   display: flex;
-  text-align: center;
 
   .exit {
    display: flex;
@@ -35,6 +34,7 @@
   .group {
    display: flex;
    flex-direction: column;
+   text-align: center;
    gap: 1em;
 
    .title {
@@ -52,14 +52,41 @@
   .actions {
    margin-top: 2em;
    display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 2em;
+   justify-content: right;
+   gap: 1em;
+  }
+ }
+}
+
+.deny {
+
+ form {
+
+  .wrapper {
+   gap: 0em;
+   min-width: 30em;
+   max-width: none;
+
+   .group {
+    text-align: left;
+   }
+
+   .fields {
+    margin: 0;
+   }
   }
  }
 }
 
 .delete.active {
+ display: flex;
+}
+
+.verify.active {
+ display: flex;
+}
+
+.deny.active {
  display: flex;
 }
 

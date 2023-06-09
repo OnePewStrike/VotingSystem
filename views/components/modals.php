@@ -1,7 +1,7 @@
 <div class="modal delete">
  <div class="wrapper">
   <div class="exit">
-   <button class="secondary">
+   <button class="secondary" id="delete-exit-btn">
     <i class="fa-solid fa-xmark"></i>
    </button>
   </div>
@@ -12,7 +12,48 @@
   </div>
   <div class="actions">
    <button class="primary wide">Delete</button>
-   <button class="secondary wide">Cancel</button>
+   <button class="secondary wide" id="modal-exit-btn">Cancel</button>
   </div>
  </div>
+</div>
+
+<div class="modal verify" id="verify-exit-btn">
+ <div class="wrapper">
+  <div class="exit">
+   <button class="secondary">
+    <i class="fa-solid fa-xmark"></i>
+   </button>
+  </div>
+  <div class="group">
+   <span class="title">Would you like to verify this student?</span>
+   <span class="description">If you are to verify this student, the status will be set to verified.</span>
+  </div>
+  <div class="actions">
+   <button class="primary wide">Verify</button>
+   <button class="secondary wide" id="deny-btn">Deny</button>
+  </div>
+ </div>
+</div>
+
+<div class="modal deny">
+ <form action="" method="" class="modify">
+  <div class="wrapper">
+   <div class="exit" id="deny-exit-btn">
+    <button class="secondary">
+     <i class="fa-solid fa-xmark"></i>
+    </button>
+   </div>
+   <div class="group">
+    <span class="title">Provide a reason to deny</span>
+   </div>
+   <div class="fields">
+    <div class="field">
+      <textarea id="reason" type="text" name="reason" required autocomplete="reason" autofocus></textarea>
+    </div>
+   </div>
+   <div class="actions">
+    <button class="primary wide" type="submit">Submit</button>
+    <button class="secondary wide" id="modal-exit-btn">Cancel</button>
+   </div>
+ </form>
 </div>
