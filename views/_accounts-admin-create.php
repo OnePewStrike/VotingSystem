@@ -1,4 +1,5 @@
 <div class="container short">
+  <?php include('views/components/messages.php') ?>
   <div class="page__header">
     <div class="group">
       <span class="group__title">Add Account</span>
@@ -29,7 +30,7 @@
           <div class="group">
             <div class="field input">
               <label for="student_id">Username</label>
-              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id" autofocus>
+              <input id="student_id" type="student_id" class="form-control" name="student_id" required autocomplete="student_id">
             </div>
             <div class="field short">
               <label for="student_id">User Role</label>

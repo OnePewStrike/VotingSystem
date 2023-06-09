@@ -1,0 +1,46 @@
+.menu {
+ position: fixed;
+ display: flex;
+ flex-direction: column;
+ top: 85px;
+ right: -110%;
+ z-index: 2;
+ max-width: 10em;
+ background-color: var(--white-color);
+
+ &__content {
+
+  .actions {
+   display: flex;
+   flex-direction: column;
+
+   a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.5em 0.8em;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+   }
+
+   a:hover {
+    background-color: var(--hover-color);
+   }
+
+   a:nth-child(odd) {
+    border-bottom: none;
+   }
+  }
+ }
+}
+
+
+.user.active {
+ right: 2%;
+}
+
+.menu.active {
+ right: 2%;
+}

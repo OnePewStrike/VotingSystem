@@ -1,4 +1,5 @@
 <div class="container wide">
+  <?php include('views/components/messages.php') ?>
   <div class="page__header">
     <div class="group">
       <span class="group__title">Election Manager</span>

@@ -163,3 +163,21 @@ form.hero {
     }
   }
 }
+
+.modify.access {
+  padding: 2em;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+
+  img {
+    max-height: 15em;
+  }
+
+  .title {
+    align-self: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+}

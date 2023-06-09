@@ -1,0 +1,34 @@
+.card {
+ padding: 2em;
+ border: 1px solid var(--border-color);
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 2em;
+
+ .description {
+  font-weight: 700;
+  color: var(--grey-color);
+ }
+
+ .qr-code {
+  min-height: min(100% - 40%);
+  min-width: min(100% - 2em);
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+ }
+
+ .output-code {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+
+  .code {
+   padding: 1.2em;
+   border: 1px solid var(--border-color);
+  }
+ }
+}

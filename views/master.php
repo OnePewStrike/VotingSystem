@@ -18,12 +18,13 @@
     <div class="page__header">
 
       <?php include('views/inc/header.php') ?>
-      <?php include('views/inc/modals.php') ?>
-
+      <?php include('views/components/menus.php') ?>
+      <?php include('views/components/modals.php') ?>
+      
     </div>
     <main class="page__content">
-    
-        <?php include($contentView) ?>
+      
+      <?php include($contentView) ?>
 
     </main>
   </div>
@@ -31,7 +32,7 @@
 
 
   <!-- JS Link -->
-  <script src="js/script.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
 </body>
 
 </html>

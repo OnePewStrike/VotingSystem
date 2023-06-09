@@ -1,4 +1,5 @@
 <div class="container short">
+  <?php include('views/components/messages.php') ?>
   <div class="page__header">
     <div class="group">
       <span class="group__title">Edit Account</span>

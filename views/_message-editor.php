@@ -1,4 +1,5 @@
 <div class="container">
+  <?php include('views/components/messages.php') ?>
   <div class="page__header wide">
     <div class="group">
       <span class="group__title">Message Editor</span>
@@ -9,8 +10,8 @@
    <form class="modify" action="" method="">
     <div class="content__row short">
       <div class="details">
-       <span class="title">PAGE INFORMATION</span>
-       <span class="description">These are messages that appear to be logged in users that cannot use the application to vote. It appears after logging in.</span>
+        <span class="title">PAGE INFORMATION</span>
+        <span class="description">These are messages that appear to be logged in users that cannot use the application to vote. It appears after logging in.</span>
       </div>
       <div class="fields">
         <div class="field full">

@@ -1,5 +1,5 @@
-<div class="modal user">
- <div class="modal__content">
+<div class="menu user">
+ <div class="menu__content">
   <div class="actions">
    <a href="accounts-profile.php">
     <span class="name">My Profile</span>

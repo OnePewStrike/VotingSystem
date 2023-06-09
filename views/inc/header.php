@@ -27,9 +27,9 @@
   </div>
   <div class="header__right" id="user-btn">
     <div class="header__separator"></div>
-    <div class="user">
-      <span class="user__name">Name Placeholder</span>
-      <span class="user__role">Super Admin</span>
+    <div class="details">
+      <span class="details__name">Name Placeholder</span>
+      <span class="details__role">Super Admin</span>
     </div>
     <div class="group">
       <i class="fa-solid fa-circle-user group__icon"></i>
