@@ -29,6 +29,10 @@ button.secondary {
   background-color: var(--white-color);
 }
 
+button.no-border {
+  border: none;
+}
+
 button.wide {
   padding: 0.6em 2em;
 }
@@ -40,6 +44,7 @@ button.bold {
 button:hover {
   background-color: var(--hover-color);
 }
+
 
 button.filter {
   gap: 2em;
