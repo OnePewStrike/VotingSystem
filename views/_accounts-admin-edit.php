@@ -45,10 +45,10 @@
             </div>
           </div>
         </div>
+        <div class="page__actions">
+          <button type="submit" class="tertiary wide">Update Account</button>
+        </div>
       </form>
     </div>
-  </div>
-  <div class="page__actions">
-    <button class="tertiary wide">Update Account</button>
   </div>
 </div>

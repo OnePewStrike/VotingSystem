@@ -36,10 +36,10 @@
             </div>
           </div>
         </div>
+        <div class="page__actions">
+          <button type="submit" class="tertiary wide">Create Election</button>
+        </div>
       </form>
     </div>
-  </div>
-  <div class="page__actions">
-    <button class="tertiary wide">Create Election</button>
   </div>
 </div>

@@ -36,10 +36,10 @@
             <textarea id="college" type="text" name="college" required autocomplete="college"></textarea>
           </div>
         </div>
+        <div class="page__actions">
+          <button type="submit" class="tertiary wide">Update Position</button>
+        </div>
       </form>
     </div>
-  </div>
-  <div class="page__actions">
-    <button class="tertiary wide">Update Position</button>
   </div>
 </div>

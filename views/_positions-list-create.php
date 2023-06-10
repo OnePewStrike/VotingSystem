@@ -42,10 +42,10 @@
             <textarea id="description" type="text" name="description" required autocomplete="description"></textarea>
           </div>
         </div>
+        <div class="page__actions">
+          <button type="submit" class="tertiary wide">Add Position</button>
+        </div>
       </form>
     </div>
-  </div>
-  <div class="page__actions">
-    <button class="tertiary wide">Add Position</button>
   </div>
 </div>

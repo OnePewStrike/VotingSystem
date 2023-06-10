@@ -26,10 +26,10 @@
             <input id="result" type="text" name="result" required autocomplete="result">
           </div>
         </div>
+        <div class="page__actions">
+          <button type="submit" class="tertiary wide">Override Candidate</button>
+        </div>
       </form>
     </div>
-  </div>
-  <div class="page__actions">
-    <button class="tertiary wide">Override Candidate</button>
   </div>
 </div>
