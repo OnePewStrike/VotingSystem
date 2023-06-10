@@ -19,7 +19,7 @@
 
 <div class="modal verify">
   <div class="wrapper">
-    <div class="exit">
+    <div class="exit" id="verify-exit-btn">
       <button class="secondary">
       <i class="fa-solid fa-xmark"></i>
     </button>

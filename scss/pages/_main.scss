@@ -137,10 +137,6 @@
           tr {
             border-bottom: 1px solid var(--border-color);
 
-            td {
-              padding: 0.5em;
-            }
-
             td.col5 {
               display: flex;
               gap: 0.5em;
@@ -268,6 +264,13 @@
 .container.short {
   padding: 4.5em 20em;
 }
+
+@media(min-width: 1700px) {
+  .container.short {
+    padding: 4.5em 30em;
+  }
+}
+
 
 .container.wide {
   padding: 4.5em 8em;
