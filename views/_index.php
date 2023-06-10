@@ -3,11 +3,10 @@
     <span>Title</span>
     <span>/Logo</span>
   </div>
-  <div class="container">
-    <form action="" method="" class="modify hero">
+  <form action="" method="" class="modify hero">
       <div class="login-details">
         <span class="title">Sign in</span>
-        <span class="description">Integer id ultricies risus. Donec suscipit neque lorem, eu aliquam nunc pellentesque.</span>
+        <span class="description">Integer id ultricies risus. Donesuscipit neque lorem, eu aliquam nunc pellentesque.</span>
       </div>
       <div class="fields">
         <div class="field full">
@@ -23,7 +22,6 @@
         <button class="primary">Sign in</button>
       </div>
     </form>
-  </div>
   <?php include('inc/footer.php') ?>
   </div>
 </div>

@@ -1,6 +1,6 @@
 <div class="container code short">
   <div class="top">
-      <?php include('views/components/messages.php') ?>
+    <?php include('views/components/messages/info/info.php') ?>
   </div>
   <div class="bottom">
     <form action="" method="" class="modify access">
