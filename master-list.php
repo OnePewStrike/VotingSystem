@@ -1,5 +1,5 @@
 <?php
-  $title = 'Home';
+  $title = 'Master List';
   $contentView = 'views/_master-list.php';
   include('views/master.php');
 ?>

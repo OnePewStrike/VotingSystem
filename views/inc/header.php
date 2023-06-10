@@ -3,7 +3,7 @@
     <a href="master-list.php" class="logo">COMELEC</a>
     <ul class="nav">
       <li>
-        <a href="master-list.php">Students Master List</a>
+        <a href="master-list.php">Student Master List</a>
       </li>
       <li>
         <a href="student-accounts.php">Students Accounts</a>
