@@ -50,6 +50,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Update Candidate</button>
+    <button class="tertiary wide">Update Candidate</button>
   </div>
 </div>

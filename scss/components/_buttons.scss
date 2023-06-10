@@ -1,7 +1,7 @@
 button {
   padding: 0.6em 0.8em;
   color: var(--text-color);
-  border: 1px solid var(--black-color);
+  border: 1px solid var(--primary-color);
   background-color: none;
   outline: none;
   border-radius: 2px;
@@ -22,11 +22,25 @@ button.primary {
 }
 
 button.primary:hover {
+  background-color: var(--hover-color);
   color: var(--black-color);
 }
 
 button.secondary {
   background-color: var(--white-color);
+  color: var(--primary-color);
+}
+
+button.tertiary {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  border: 1px solid var(--border-color);
+  font-weight: 700;
+}
+
+button.tertiary:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
 }
 
 button.no-border {

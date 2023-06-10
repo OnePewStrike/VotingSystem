@@ -3,7 +3,11 @@
  border: 1px solid var(--border-color);
  display: flex;
  align-items: center;
+ justify-content: space-between;
  flex-direction: column;
+ max-width: 28em;
+ min-width: 25em;
+ min-height: 31.7em;
  gap: 2em;
 
  .description {
@@ -12,9 +16,10 @@
  }
 
  .qr-code {
-  min-height: min(100% - 40%);
+  min-height: 15em;
   min-width: min(100% - 2em);
-  background-color: var(--bg-color);
+  background-color: var(--body-color);
+  color: var(--black-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,9 +31,12 @@
   align-items: center;
   gap: 0.5em;
 
-  .code {
+  input.item {
+   max-width: 3.2em;
+   max-height: 3.2em;
    padding: 1.2em;
    border: 1px solid var(--border-color);
+   outline: none;
   }
  }
 }

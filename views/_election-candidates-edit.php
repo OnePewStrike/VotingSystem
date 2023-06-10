@@ -30,6 +30,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Override Candidate</button>
+    <button class="tertiary wide">Override Candidate</button>
   </div>
 </div>

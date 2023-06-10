@@ -50,6 +50,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary">Add Student</button>
+    <button class="tertiary wide">Add Student</button>
   </div>
 </div>

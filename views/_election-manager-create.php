@@ -40,6 +40,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Create Election</button>
+    <button class="tertiary wide">Create Election</button>
   </div>
 </div>

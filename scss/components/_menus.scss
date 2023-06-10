@@ -2,11 +2,11 @@
  position: fixed;
  display: flex;
  flex-direction: column;
- top: 80px;
+ top: 69px;
  right: -110%;
  z-index: 2;
  max-width: 10em;
- background-color: var(--black-color);
+ background-color: var(--primary-color);
 
  &__content {
 
@@ -55,10 +55,7 @@
 //  border-bottom: 16px solid var(--black-color);
 // }
 
-.user.active {
- right: 2%;
-}
-
+.user.active,
 .menu.active {
  right: 2%;
 }
@@ -66,13 +63,13 @@
 .see-more {
  position: absolute;
  padding: 0 0;
- top: 49px;
  right: -110%;
+ transform: translateY(-20%);
  min-width: 12em;
  max-width: none;
  display: none;
  text-align: center;
- background-color: var(--black-color);
+ background-color: var(--primary-color);
 
  li {
   border: 1px solid var(--border-color);
@@ -83,13 +80,13 @@
    color: var(--white-color);
   }
 
-  a:hover {
-   color: var(--black-color);
-  }
  }
 
  li:hover {
   background-color: var(--hover-color);
+ }
+
+ li:hover a {
   color: var(--black-color);
  }
 

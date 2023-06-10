@@ -49,6 +49,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Add Account</button>
+    <button class="tertiary wide">Add Account</button>
   </div>
 </div>

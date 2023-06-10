@@ -109,7 +109,7 @@
         </div>
       </div>
       <div class="page__actions">
-        <button type="submit" class="primary wide">Save Changes</button>
+        <button type="submit" class="tertiary wide">Save Changes</button>
       </div>
     </form>
   </div>

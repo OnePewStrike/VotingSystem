@@ -2,15 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid var(--black-color);
+  border: 1px solid var(--border-color);
   min-width: 25em;
   border-radius: 2px;
 
   &__group {
-    padding: 0.4em 0.8em;
+    padding: 0.5em 0.8em;
     display: flex;
     align-items: center;
     gap: 0.5em;
+    color: var(--black-color);
 
     input {
       outline: none;
@@ -19,18 +20,25 @@
   }
 
   &__exit {
+    display: none;
     padding: 0 0.5em;
     border-left: 1px solid var(--black-color);
     cursor: pointer;
   }
+
+  .fa-xmark {
+    display: none;
+    color: var(--black-color);
+  }
 }
 
-form.hero {
+.modify.hero {
   align-self: center;
-  max-width: min(100% - 22em, 22em);
+  max-width: 22em;
+  min-width: 20em;
   display: flex;
   flex-direction: column;
-  gap: 4em;
+  gap: 2em;
   padding: 2em 1em;
   border: 1px solid var(--black-color);
   border-radius: 2px;
@@ -47,6 +55,11 @@ form.hero {
       margin: 0;
     }
   }
+
+  .field.button {
+    display: flex;
+    justify-content: right;
+  }
 }
 
 .modify {
@@ -57,12 +70,14 @@ form.hero {
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 1em;
+    color: var(--primary-color);
   }
 
   .introduction {
     font-size: 1.9rem;
     font-weight: 700;
     margin: 0.5em 0 1em;
+    color: var(--primary-color);
   }
 
   .details {
@@ -72,6 +87,11 @@ form.hero {
 
     .title {
       margin-bottom: none;
+      color: var(--primary-color);
+    }
+
+    .description {
+      color: var(--black-color);
     }
   }
 
@@ -89,6 +109,7 @@ form.hero {
 
       label {
         font-weight: 700;
+        color: var(--primary-color);
       }
 
       input {
@@ -163,14 +184,21 @@ form.hero {
 }
 
 .modify.access {
-  padding: 2em;
+  padding: 1.5em;
   border: 1px solid var(--border-color);
+  min-width: 25em;
+  max-width: 28em;
+  max-height: 32em;
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0.5em;
+
+  .fields {
+    gap: 0.8em;
+  }
 
   img {
-    max-height: 15em;
+    max-height: 12em;
   }
 
   .title {

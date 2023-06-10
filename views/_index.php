@@ -11,12 +11,12 @@
       </div>
       <div class="fields">
         <div class="field full">
-          <label for="last_name">Username</label>
-          <input id="last_name" type="text" class="form-control" name="last_name" required autocomplete="last_name">
+          <label for="username">Username</label>
+          <input id="username" type="text" name="username" required autocomplete="username">
         </div>
         <div class="field full">
-          <label for="last_name">Password</label>
-          <input id="last_name" type="password" class="form-control" name="last_name" required autocomplete="last_name">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" required autocomplete="password">
         </div>
       </div>
       <div class="field button">
@@ -25,4 +25,5 @@
     </form>
   </div>
   <?php include('inc/footer.php') ?>
+  </div>
 </div>

@@ -40,6 +40,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button class="primary wide">Update Position</button>
+    <button class="tertiary wide">Update Position</button>
   </div>
 </div>
