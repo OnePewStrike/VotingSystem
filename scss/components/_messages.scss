@@ -56,6 +56,11 @@
    }
   }
  }
+
+ button {
+  color: var(--info-color);
+  border: 1px solid var(--info-color);
+ }
 }
 
 .message.success {
@@ -73,6 +78,11 @@
     color: var(--success-color);
    }
   }
+ }
+
+ button {
+  color: var(--success-color);
+  border: 1px solid var(--success-color);
  }
 }
 
@@ -92,6 +102,11 @@
    }
   }
  }
+
+ button {
+  color: var(--error-color);
+  border: 1px solid var(--error-color);
+ }
 }
 
 .message.warning {
@@ -109,5 +124,42 @@
     color: var(--warning-color);
    }
   }
+ }
+
+ button {
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+ }
+}
+
+.message.short {
+ background-color: var(--error-light-color);
+ border-left: 4px solid var(--error-color);
+ max-width: 22em;
+ min-width: 20em;
+ align-self: center;
+
+ .group {
+
+  .fa-solid {
+   color: var(--error-color);
+  }
+
+  .column {
+
+   .title {
+    display: none;
+   }
+
+   .description {
+    color: var(--error-color);
+   }
+  }
+ }
+
+ button {
+  display: none;
+  color: var(--error-color);
+  border: 1px solid var(--error-color);
  }
 }
