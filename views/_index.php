@@ -3,9 +3,6 @@
     <span>Title</span>
     <span>/Logo</span>
   </div>
-  <div class="group">
-
-  </div>
   <?php include('views/components/messages/short/short.php') ?>
   <form action="" method="" class="modify hero">
     <div class="login-details">
@@ -26,6 +23,7 @@
       <button class="primary">Sign in</button>
     </div>
   </form>
-  <?php include('inc/footer.php') ?>
+  <div class="inquiry">
+    <div class="description">For further questions or inquries, <br> please contact <a href="" class="contact">COMELEC.</a> </div>
   </div>
 </div>

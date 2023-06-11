@@ -20,6 +20,6 @@
     </div>
   </div>
   <div class="page__actions">
-    <button type="submit" class="primary wide">Update Announcement</button>
+    <button type="submit" class="tertiary wide">Update Announcement</button>
   </div>
 </div>
